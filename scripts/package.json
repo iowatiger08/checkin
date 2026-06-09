@@ -1,0 +1,17 @@
+{
+  "name": "scripts",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "seed": "tsx seed.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.620.0",
+    "@aws-sdk/lib-dynamodb": "^3.620.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  }
+}

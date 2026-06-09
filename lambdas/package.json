@@ -1,0 +1,14 @@
+{
+  "name": "lambdas",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.620.0",
+    "@aws-sdk/lib-dynamodb": "^3.620.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.140",
+    "@types/node": "^20.14.2",
+    "typescript": "^5.5.2"
+  }
+}

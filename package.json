@@ -1,0 +1,19 @@
+{
+  "name": "checkin",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "infra",
+    "web",
+    "lambdas",
+    "scripts"
+  ],
+  "scripts": {
+    "synth": "npm -w infra run synth",
+    "deploy:api": "npm -w infra run deploy:api",
+    "deploy:web": "npm -w infra run deploy:web",
+    "build:web": "npm -w web run build",
+    "seed": "npm -w scripts run seed --",
+    "destroy": "npm -w infra run destroy"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "infra",
+  "private": true,
+  "version": "0.1.0",
+  "bin": {
+    "infra": "bin/app.js"
+  },
+  "scripts": {
+    "synth": "cdk synth",
+    "deploy:api": "cdk deploy --require-approval never -c skipWeb=true",
+    "deploy:web": "cdk deploy --require-approval never",
+    "destroy": "cdk destroy --force"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "aws-cdk": "^2.150.0",
+    "esbuild": "^0.21.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.150.0",
+    "constructs": "^10.3.0"
+  }
+}
